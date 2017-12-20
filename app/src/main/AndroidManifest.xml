@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.android.englishfinal">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/icon"
+        android:label="10th Grade"
+        android:roundIcon="@mipmap/icon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Firstunit"
+            android:label="First Unit"/>
+        <activity android:name=".Secondunit"
+            android:label="Second Unit"/>
+        <activity android:name=".Thirdunit"
+            android:label="Third Unit"/>
+        <activity android:name=".Fourthunit"
+            android:label="Fourth Unit"/>
+        <activity android:name=".Fifthunit"
+            android:label="Fifth Unit"/>
+        <activity android:name=".Sixthunit"
+            android:label="Sixth Unit"/>
+        <activity android:name=".ContactUs"
+            android:label="Contact Us"/>
+    </application>
+
+</manifest>

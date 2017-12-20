@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/tan_background"
+    android:orientation="vertical"
+    android:weightSum="1"
+    tools:context="com.example.android.englishfinal.MainActivity">
+
+    <TextView
+        android:id="@+id/Firstunit"
+        style="@style/CategoryStyle"
+        android:layout_height="72dp"
+        android:background="@color/FirstUnit"
+        android:text="First Unit"
+        android:textColor="@color/Text" />
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="2dp" />
+    <TextView
+        android:id="@+id/Secondunit"
+        android:layout_height="72dp"
+        style="@style/CategoryStyle"
+        android:background="@color/SecondUnit"
+        android:text="Second Unit"
+        android:textColor="@color/Text" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="2dp" />
+    <TextView
+        android:id="@+id/Thirdunit"
+        style="@style/CategoryStyle"
+        android:layout_height="72dp"
+        android:background="@color/ThirdUnit"
+        android:text="Third Unit"
+        android:textColor="@color/Text" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="2dp" />
+
+    <TextView
+        android:id="@+id/Fourthunit"
+        style="@style/CategoryStyle"
+        android:layout_height="72dp"
+        android:background="@color/FourthUnit"
+        android:text="Fourth Unit"
+        android:textColor="@color/Text" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="2dp" />
+    <TextView
+        android:id="@+id/Fiftunit"
+        style="@style/CategoryStyle"
+        android:layout_height="72dp"
+        android:background="@color/FifthUnit"
+        android:text="Fifth Unith"
+        android:textColor="@color/Text" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="2dp" />
+    <TextView
+        android:id="@+id/Sixthunit"
+        style="@style/CategoryStyle"
+        android:layout_height="72dp"
+        android:background="@color/SixthUnit"
+        android:text="Sixth Unit"
+        android:textColor="@color/Text" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="2dp" />
+    <TextView
+        android:id="@+id/contactus"
+        style="@style/CategoryStyle"
+        android:layout_height="72dp"
+        android:background="#fc5b5b"
+        android:text="Contact Us"
+        android:textColor="@android:color/white" />
+
+</LinearLayout>

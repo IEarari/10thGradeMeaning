@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    tools:context="com.example.android.englishfinal.ContactUs">
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text=""
+    style="@style/CategoryStyle"
+    android:layout_weight=".9"
+    android:textColor="@android:color/black"
+    android:textSize="25dp"/>
+
+    <TextView
+        android:layout_weight="114.02"
+        android:id="@+id/textView"
+        style="@style/CategoryStyle"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="top"
+        android:text="\n\n\nFor Any Problem  \n\n\nContact Us on Our E-Mail : aarar90@gmail.com"
+        android:textColor="@android:color/black"
+        android:textSize="22dp" />
+
+</LinearLayout>
